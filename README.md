@@ -2,6 +2,8 @@
 
 Restore some order to your i3 workspaces
 
+![GIF](https://github.com/kas/i3-workspace-reset/raw/master/gif.gif)
+
 ## Development
 
 1. Create a virtual environment: `python -m venv venv`
