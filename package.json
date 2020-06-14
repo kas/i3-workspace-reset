@@ -1,22 +1,23 @@
 {
-  "name": "i3-workspace-reset",
-  "version": "1.0.0",
-  "description": "Restore some order to your i3 workspaces",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/kas/i3-workspace-reset/issues"
   },
+  "dependencies": {
+    "prettier": "^2.0.5"
+  },
+  "description": "Restore some order to your i3 workspaces",
+  "homepage": "https://github.com/kas/i3-workspace-reset#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "i3-workspace-reset",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kas/i3-workspace-reset.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kas/i3-workspace-reset/issues"
+  "scripts": {
+    "prettier": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/kas/i3-workspace-reset#readme",
-  "dependencies": {
-    "prettier": "^2.0.5"
-  }
+  "version": "1.0.0"
 }
