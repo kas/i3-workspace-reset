@@ -1,2 +1,6 @@
+__pycache__/
+build/
+dist/
+i3-workspace-reset.spec
 node_modules/
 venv/
