@@ -26,7 +26,7 @@ Restore some order to your i3 workspaces
   - i3-workspace-reset will ruthlessly erase any semblance of your efforts by restoring your workspace names to integers, just like you wanted.
 - What if I'm using multiple outputs?
   - i3-workspace-reset works great with multiple outputs, so long as they are oriented in a horizontal fashion. For example, if you use i3-workspace-reset and you have two outputs side by side, then i3-workspace-reset will start with the left output, renaming the workspaces as 1 to `len(output[0].workspaces)`, before moving on to the right output, renaming the workspaces as `len(outputs[0].workspaces) + 1` to `len(outputs[0].workspaces) + len(outputs[1].workspaces)`.
-- When will you i3-workspace-reset vertically-oriented outputs?
+- When will i3-workspace-reset support vertically-oriented outputs?
   - Probably never since my head only rotates on the horizontal axis. I might consider contributions here if it's a popular request.
 
 ## Usage
