@@ -28,13 +28,11 @@ Restore some order to your i3 workspaces
   - i3-workspace-reset works great with multiple outputs, so long as they are oriented in a horizontal fashion. For example, if you use i3-workspace-reset and you have two outputs side by side, then i3-workspace-reset will start with the left output, renaming the workspaces as 1 to `len(output[0].workspaces)`, before moving on to the right output, renaming the workspaces as `len(outputs[0].workspaces) + 1` to `len(outputs[0].workspaces) + len(outputs[1].workspaces)`.
 - When will i3-workspace-reset support vertically-oriented outputs?
   - Probably never since my head only rotates on the horizontal axis. I might consider contributions here if it's a popular request.
+- npm files? In a Python project?? Oh, the humanity!
+  - Don't worry, those files are just here to keep this file formatted with Prettier.
 
 ## Usage
 
 1. Download the latest [release](https://github.com/kas/i3-workspace-reset/releases)
 2. Unzip the i3-workspace-reset-#-#-#.zip file
 3. Use the i3-workspace-reset file
-
-## npm files? In a Python project?? Oh, the humanity!
-
-Don't worry, those files are just here to keep this file formatted with Prettier.
