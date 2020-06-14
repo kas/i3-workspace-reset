@@ -1,8 +1,8 @@
 from i3ipc import Connection
 
-i3 = Connection()
-
 EXCLUDED_OUTPUTS = ["__i3"]
+
+connection = Connection()
 
 
 def append_string_to_workspaces(append_string, workspace_counter, workspace_name):
@@ -15,7 +15,7 @@ def append_string_to_workspaces(append_string, workspace_counter, workspace_name
 def get_outputs():
     """Get the available outputs, excluding outputs in the EXCLUDED_OUTPUTS variable."""
     outputs = []
-    tree = i3.get_tree()
+    tree = connection.get_tree()
     for node in filter(
         lambda node: node.type == "output" and node.name not in EXCLUDED_OUTPUTS, tree
     ):
@@ -27,7 +27,7 @@ def get_outputs():
 
 def rename_workspace(original_workspace_name, new_workspace_name):
     """Rename a workspace."""
-    i3.command(
+    connection.command(
         f'rename workspace "{original_workspace_name}" to "{new_workspace_name}"'
     )
 
