@@ -23,17 +23,18 @@ Restore some order to your i3 workspaces
 - How/when should I use i3-workspace-reset?
   - You can use i3-workspace-reset however you want. Consider using i3-workspace-reset with dmenu.
 - How do I use i3-workspace-reset with dmenu?
+
   1. Create a bin/ folder: `mkdir ~/bin`
   2. Copy the i3-workspace-reset/ folder to the ~/bin/ folder: `cp -r i3-workspace-reset ~/bin`
   3. Create an i3-workspace-reset.sh file: `touch ~/bin/i3-workspace-reset.sh`
-  4. Add the following to the ~/bin/i3-workspace-reset.sh file:
+  4. Add the below code to the ~/bin/i3-workspace-reset.sh file.
+  5. Make the ~/bin/i3-workspace-reset.sh file executable: `chmod +x ~/bin/i3-workspace-reset.sh`
+  6. You might need to log out and log back in to use i3-workspace-reset with dmenu.
 
 ```
 #!/bin/bash
 (DIRECTORY="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )" && $DIRECTORY/i3-workspace-reset/i3-workspace-reset)
 ```
-
-    5. Make the ~/bin/i3-workspace-reset.sh file executable: `chmod +x ~/bin/i3-workspace-reset.sh`
 
 - What if I named my workspaces?
   - i3-workspace-reset will ruthlessly erase any semblance of your efforts by restoring your workspace names to integers, just like you wanted.
@@ -49,3 +50,7 @@ Restore some order to your i3 workspaces
 1. Download the latest [release](https://github.com/kas/i3-workspace-reset/releases)
 2. Unzip the i3-workspace-reset-#-#-#.zip file
 3. Use the i3-workspace-reset file
+
+```
+
+```
