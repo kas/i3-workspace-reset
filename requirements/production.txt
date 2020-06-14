@@ -1,0 +1,3 @@
+-r common.txt
+i3ipc==2.2.1
+python-xlib==0.27
