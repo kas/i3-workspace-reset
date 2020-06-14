@@ -50,7 +50,3 @@ Restore some order to your i3 workspaces
 1. Download the latest [release](https://github.com/kas/i3-workspace-reset/releases)
 2. Unzip the i3-workspace-reset-#-#-#.zip file
 3. Use the i3-workspace-reset file
-
-```
-
-```
