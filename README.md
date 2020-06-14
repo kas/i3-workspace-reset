@@ -7,7 +7,7 @@ Restore some order to your i3 workspaces
 ## Development
 
 1. Create a virtual environment: `python -m venv venv`
-2. Enter the virtual environment: `source venv/bin/active`
+2. Enter the virtual environment: `. venv/bin/active`
 3. Install the requirements: `pip install -r requirements/development.txt`
 
 ## Distribution
