@@ -14,6 +14,12 @@ Restore some order to your i3 workspaces
 2. Generate the dist/ folder: `pyinstaller i3-workspace-reset.py`
 3. Zip the dist/i3-workspace-reset/ folder: `zip -r i3-workspace-reset-#-#-#.zip i3-workspace-reset`
 
+## Usage
+
+1. Download the latest [release](https://github.com/kas/i3-workspace-reset/releases)
+2. Unzip the i3-workspace-reset-#-#-#.zip file
+3. Use the i3-workspace-reset file
+
 ## npm files? In a Python project?? Oh, the humanity!
 
 Don't worry, those files are just here to keep this file formatted with Prettier.
