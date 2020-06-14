@@ -24,7 +24,7 @@ Restore some order to your i3 workspaces
   - You can use i3-workspace-reset however you want. Consider using i3-workspace-reset with dmenu.
 - How do I use i3-workspace-reset with dmenu?
 
-  1. Create a bin/ folder: `mkdir ~/bin`
+  1. Create a ~/bin/ folder: `mkdir ~/bin`
   2. Copy the i3-workspace-reset/ folder to the ~/bin/ folder: `cp -r i3-workspace-reset ~/bin`
   3. Create an i3-workspace-reset.sh file: `touch ~/bin/i3-workspace-reset.sh`
   4. Add the below code to the ~/bin/i3-workspace-reset.sh file.
