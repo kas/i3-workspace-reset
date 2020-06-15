@@ -20,7 +20,7 @@ Restore some order to your i3 workspaces
 
 (Actually, these questions have literally never been asked. But I figured it would be good to note them here.)
 
-- How/when should I use i3-workspace-reset?
+- How should I use i3-workspace-reset?
   - You can use i3-workspace-reset however you want. Consider using i3-workspace-reset with dmenu.
 - How do I use i3-workspace-reset with dmenu?
 
