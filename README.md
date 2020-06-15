@@ -20,8 +20,6 @@ Restore some order to your i3 workspaces
 
 (Actually, these questions have literally never been asked. But I figured it would be good to note them here.)
 
-- How should I use i3-workspace-reset?
-  - You can use i3-workspace-reset however you want. Consider using i3-workspace-reset with dmenu.
 - How do I use i3-workspace-reset with dmenu?
 
   1. Create a ~/bin/ folder: `mkdir ~/bin`
@@ -36,6 +34,8 @@ Restore some order to your i3 workspaces
 (DIRECTORY="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )" && $DIRECTORY/i3-workspace-reset/i3-workspace-reset)
 ```
 
+- How should I use i3-workspace-reset?
+  - You can use i3-workspace-reset however you want. Consider using i3-workspace-reset with dmenu.
 - What if I named my workspaces?
   - i3-workspace-reset will ruthlessly erase any semblance of your efforts by restoring your workspace names to integers, just like you wanted.
 - What if I'm using multiple outputs?
